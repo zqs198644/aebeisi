@@ -1,0 +1,19 @@
+
+<html>
+  <head>
+    <script src="jwplayer/src/js/jwplayer.js"></script>
+  </head>
+
+<body>
+  <div id='my-video'></div>
+  <script type='text/javascript'>
+    jwplayer('my-video').setup({
+      file:'rtmp://133.130.107.227/vod/1.mp4',
+      width:'50%',
+      aspectratio:'3:2',
+      fallback:'false',
+      primary:'flash'
+    });
+  </script>
+</body>
+</html>
